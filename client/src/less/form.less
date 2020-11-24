@@ -1,0 +1,96 @@
+// .placeholder(...) {
+//     ::-webkit-input-placeholder {border:@arguments}
+//     ::-moz-placeholder {border:@arguments}
+//     :-ms-input-placeholder {border:@arguments}
+// }
+
+// .placeholder(solid; 1px; red;);
+
+form {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  font-size: 1.1rem;
+
+      .flex {
+        height: 100vh;
+            input {
+              font-size: 0.9em;
+            }
+
+            input[type="password"], input[type="email"] {
+              border: none;
+              border-bottom: 1px solid #ddd;
+              display: block;
+              width: 300px;
+              margin: 0 auto;
+              background-color: transparent;
+              margin-bottom: 1rem;
+              padding: 1.2rem;
+              padding-left: 0;
+              outline: none;
+              transition: @allTransition;
+
+              &:focus {
+                border: none;
+                border-bottom: 1px solid #000;
+                color: #000;
+              } 
+            }
+
+            input[type="password"]{
+              margin-bottom: 0.4rem;
+            }
+
+            // input:not([value=""]):not(:focus):invalid {
+            //     background-color: #fff;
+            // }
+
+            input[type="text"] {
+              margin-bottom: 0.6rem;
+            }
+
+            input[type="submit"] {
+
+              background-color: #000;
+              border: none;
+              color: #fff;
+              display: block;
+              outline: none;
+              font-size: 0.7em;
+              width: 300px;
+              font-weight: 400;
+              margin: 0 auto;
+              margin-top: 2rem;
+              padding: 1.2rem;
+              text-transform: uppercase;
+              letter-spacing: 1px;
+              font-weight: 600;
+              transition: @allTransition;
+                
+                  &:hover {
+                    cursor: pointer;
+                    opacity: 0.8;
+                  }
+
+                  &[disabled] {
+                    background-color: #F6F6F6;
+                    color: #888;
+                    pointer-events: none;
+
+                  }
+            }
+      }
+
+      .error {
+        color: #d93025;
+        .font-brand3;
+        display: block;
+        width: 300px;
+        margin: 0 auto 1rem;
+        position: relative;
+        text-align: left;
+        padding-top: 4px;
+        font-size: 14px;
+      }
+}

@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'expresswayregular';
+    src: url('/fonts/expressway_regular.woff2') format('woff2'),
+         url('/fonts/expressway_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'expresswaybold';
+    src: url('/fonts/expressway_bold-webfont.woff2') format('woff2'),
+         url('/fonts/expressway_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'ClanPro-NarrNews';
+  src: url('/fonts/ClanPro-NarrNews.eot?#iefix') format('embedded-opentype'),  url('/fonts/ClanPro-NarrNews.otf')  format('opentype'),
+         url('/fonts/ClanPro-NarrNews.woff') format('woff'), url('/fonts/ClanPro-NarrNews.ttf')  format('truetype'), url('/fonts/ClanPro-NarrNews.svg#ClanPro-NarrNews') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClanPro-Bold';
+  src: url('/fonts/ClanPro-Bold.eot?#iefix') format('embedded-opentype'),  url('/fonts/ClanPro-Bold.otf')  format('opentype'),
+         url('/fonts/ClanPro-Bold.woff') format('woff'), url('/fonts/ClanPro-Bold.ttf')  format('truetype'), url('/fonts/ClanPro-Bold.svg#ClanPro-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClanPro-News';
+  src: url('/fonts/ClanPro-News.eot?#iefix') format('embedded-opentype'),  url('/fonts/ClanPro-News.otf')  format('opentype'),
+       url('/fonts/ClanPro-News.woff') format('woff'), url('/fonts/ClanPro-News.ttf')  format('truetype'), url('/fonts/ClanPro-News.svg#ClanPro-News') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClanOT-Medium';
+  src: url('/fonts/ClanOT-Medium.eot?#iefix') format('embedded-opentype'),  url('/fonts/ClanOT-Medium.woff') format('woff'), url('/fonts/ClanOT-Medium.ttf')  format('truetype'), url('/fonts/ClanOT-Medium.svg#ClanOT-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

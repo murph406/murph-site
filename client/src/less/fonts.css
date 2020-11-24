@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Plain-Bold';
+  src: url('fonts/Plain-Bold.otf')  format('opentype'),
+       url('fonts/Plain-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Plain-Medium';
+  src: url('fonts/Plain-Medium.eot?#iefix') format('embedded-opentype'),  url('fonts/Plain-Medium.otf')  format('opentype'),
+       url('fonts/Plain-Medium.woff') format('woff'), url('fonts/Plain-Medium.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Plain-Light';
+  src: url('fonts/Plain-Light.eot?#iefix') format('embedded-opentype'),  url('fonts/Plain-Light.otf')  format('opentype'),
+       url('fonts/Plain-Light.woff') format('woff'), url('fonts/Plain-Light.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}    
