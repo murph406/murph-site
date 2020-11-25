@@ -4,8 +4,7 @@
 const BarBuddy = {
     client: "BarBuddy",
     year: "2020 (WIP)",
-    thumbnail: "https://eric-norman-portfolio.s3.amazonaws.com/home/nike-dunk.png",
-    slug: "barbuddy",
+    thumbnail: "https://lh3.googleusercontent.com/pw/ACtC-3ck2pZn6_KHKwMQtO2f85neuEO61Ha8g3QOmjGNKhk7wfAdfLUwRD-zQbXbOT-LDXBE__SJI-dCpOpQ_ynuZ2gDYOdOOmjRdbHTrim3NPY-ugrbJB0uXg0LxYQisdoQw8s_F6V0f9sOkQbhsnszHrcL=w2904-h2080-no?authuser=0",
     hero_text: "The night now alive",
     hero_description: "Nike Basketball’s 3on3 tournament is one of the largest 3on3 street basketball tournaments in the world, with over 1,500 teams, 5,000 players, and 25,000 spectators. This presents a massive logistical challenge for both players and spectators, trying to find their court, find their friends, or one of the many activities and events happening around the area. ",
     id: "f1",
@@ -14,12 +13,12 @@ const BarBuddy = {
             block_type: "full",
             block_title: "UX Research & Design",
             block_description: "Already a widely used app by players and spectators, the goal of this project has been to find current pain points with the design through participant surveys and feedback, and implement features that improve the overall event experience, like improved wayfinding and interactive bracketing and “what if” tournament outcome speculation calculators. ",
-            block_img: "https://eric-norman-portfolio.s3.amazonaws.com/nike/nike1.png",
+            block_img: " https://lh3.googleusercontent.com/pw/ACtC-3ck2pZn6_KHKwMQtO2f85neuEO61Ha8g3QOmjGNKhk7wfAdfLUwRD-zQbXbOT-LDXBE__SJI-dCpOpQ_ynuZ2gDYOdOOmjRdbHTrim3NPY-ugrbJB0uXg0LxYQisdoQw8s_F6V0f9sOkQbhsnszHrcL=w2904-h2080-no?authuser=0",
             id: "xx2"
         },
         {
             block_type: "image",
-            block_img: "https://eric-norman-portfolio.s3.amazonaws.com/nike/nike2.png",
+            block_img: "https://lh3.googleusercontent.com/pw/ACtC-3cgOK2hNG8mK_1qdYMFGPyvfH19yVJZ_su8Mytu6Aq41GjzvR_jkdSHPmNcomQrWzU3v1aCkHRSU7cFVCPV5hmKNLCVC3g0hRq1zVbP2q31f-vpXfax_U4WWgqEbeSNC4mnlNIWCEfICfqwXggfPG7R=w3584-h2074-no?authuser=0",
             id: "xx4"
         },
     ],
@@ -49,11 +48,9 @@ const BarBuddy = {
     ]
 };
 
-const Nike = {
-    client: "Nike Basketball",
+const Hoopfest = {
     year: "2020 (WIP)",
     thumbnail: "https://eric-norman-portfolio.s3.amazonaws.com/home/nike-dunk.png",
-    slug: "nike",
     hero_text: "Better tracking and coordination",
     hero_description: "Nike Basketball’s 3on3 tournament is one of the largest 3on3 street basketball tournaments in the world, with over 1,500 teams, 5,000 players, and 25,000 spectators. This presents a massive logistical challenge for both players and spectators, trying to find their court, find their friends, or one of the many activities and events happening around the area. ",
     id: "f1",
@@ -102,10 +99,8 @@ const Nike = {
     ]
 };
 
-const Boise = {
-    client: "City of Boise",
+const CashInCarry = {
     year: "2017",
-    slug: "city-of-boise",
     thumbnail: "https://etp-7154049292.s3.amazonaws.com/city-of-boise/city-of-boise-thumbnail.png",
     hero_text: "Making Boise the Most Livable City in the Country",
     hero_description: "One of the key components of a new citywide initiative by the City of Boise, to improve and better understand the interactions with its citizens, known as the Citizen Experience Project, was a technical and user experience audit of the city’s digital communications environment.",
@@ -191,9 +186,7 @@ const Boise = {
 };
 
 const AstonMartin = {
-    client: "Aston Martin",
     year: "2017",
-    slug: "aston-martin",
     thumbnail: "https://eric-norman-portfolio.s3.amazonaws.com/home/aston-martin.png",
     hero_text: "Architecting a global digital vision",
     hero_description: "Aston Martin has been a leader in the luxury car market for over 100 years, selling to 55 markets around the world. When it comes to the craft, detail and engineering of its vehicles, the company is world class. However their digital presence was severely lacking, with their marketing efforts engaging drivers, and delivering quality brand assets and information to dealers.",
@@ -272,21 +265,22 @@ const AstonMartin = {
             id: "f2"
         }
     ]
-    
+
 };
 const ProjectDetails = [
-    {
-        client: "BarBuddy",
-        slug: "city-of-boise",
-        thumbnail: "https://eric-norman-portfolio.s3.amazonaws.com/home/city-of-boise-thumbnail.png",
-        data: BarBuddy
 
-    },
     {
         client: "HoopFest",
-        slug: "nike",
-        thumbnail: "https://eric-norman-portfolio.s3.amazonaws.com/nike/nike-thumbnail.png",
-        data: Nike
+        slug: "hoopfest",
+        thumbnail: "https://lh3.googleusercontent.com/pw/ACtC-3cwvWPQxLULOPGzaKG_59D1FIuOFO5K_Xx6wxQFlspDffhp4mO9qPv9S_Sf20BcKaQFQEhZdHJzaf1km7T13s4vU-oLci7SO5rJbBOK9LhMayp8pn3-BjfMa6wOZYtOPzQ9L_FNPUhMznECQwzOZYrd=w548-h317-no?authuser=0",
+        // thumbnail: "https://lh3.googleusercontent.com/pw/ACtC-3eCBAZMNu8bmQ1NARpbn_9pRjoKratUPSCvelNN8kHnrkJP61MIt8CEkOAiZWEa9o5cpaMCRwtPSA9kj9fDriAsArHYqwuf2gi4kpLJaOOvA2TaoA2HIna7z1Nd8G7Xh3qSsakZDNW0SyghFMBMbWL_=w548-h316-no?authuser=0",
+        data: Hoopfest
+    },
+    {
+        client: "Cash in Carry",
+        slug: "cash-in-carry",
+        thumbnail: "https://lh3.googleusercontent.com/pw/ACtC-3e6unyxYOE_ic-xAzSPwzSLvBEbdReYAJFhmoF8-FTCSR5WFTNzDmV7q0uw0PlERH8DukAgL_8nrJlXDHS_IJFInWSMIg8YKa9GZapbpxOANeBwNwG9B2AnYjR27YS4Wy-VhTJTB0sJNSiKh-xhnFqD=w548-h317-no?authuser=0",
+        data: CashInCarry
     },
     {
         client: "Department of Health",
@@ -295,11 +289,11 @@ const ProjectDetails = [
         data: AstonMartin
     },
     {
-        client: "Cash in Carry",
-        slug: "cash-in-carry",
-        thumbnail: "https://eric-norman-portfolio.s3.amazonaws.com/home/aston-martin.png",
-        data: Boise
+        client: "BarBuddy",
+        slug: "barbuddy",
+        thumbnail: "https://lh3.googleusercontent.com/pw/ACtC-3efAlndsbE2IlTM8SpMZQMKg8oC_5TLvrZP5FwDqHpwFeMh0naUXZxUZ91h5S7pvWLhVvlGHaHkFcs-K9HFnxBznjkeD-r7p0U2Vsu88-0NTbmnyxgIvdCecmyNH0mxCEcZxP0gyjGV6Zhvn9mFdKvI=w548-h319-no?authuser=0",
+        data: BarBuddy
     },
 ];
 
-export { BarBuddy, Nike, ProjectDetails, Boise, AstonMartin } 
+export { BarBuddy, Hoopfest, ProjectDetails, CashInCarry, AstonMartin } 

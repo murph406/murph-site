@@ -29,9 +29,10 @@ class ProjectContainer extends PureComponent {
   render() {
     let { data } = this.props
     let { visibility } = this.state
-    let { deliverables, team, content_blocks, block_description, hero_description, hero_text, year, id } = data
+    let { deliverables, team, content_blocks, block_description, hero_description, hero_text, year, id } = data.data
 
     let ProjectDeliverables = deliverables.map((d) => {
+      console.log(data)
       return (
         <div key={d.id}>
           <p className='body-copy'>{d.deliverable}</p>

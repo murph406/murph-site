@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { NavLink, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 
-import { } from './data/data'
+import { ProjectDetails } from './data/data'
 
 class Nav extends Component {
   constructor(props) {
@@ -72,15 +72,16 @@ class Nav extends Component {
             <div className="flex">
               <div className="flex-item">
                 <ul className={"nav-list " + (listHover)} onMouseEnter={this.listHover} onMouseLeave={this.listHover}>
-                  <li><NavLink onClick={this.hideNav} to="/projects/aston-martin">Aston Martin</NavLink></li>
-                  <li><NavLink onClick={this.hideNav} to="/projects/department-of-health">Department of Health</NavLink></li>
-                  <li><NavLink onClick={this.hideNav} to="/projects/nike">Hoopfest</NavLink></li>
-                  {/* <li><NavLink onClick={this.hideNav} to="/projects/city-of-boise">City of Boise</NavLink></li> */}
-                  {/* <li><NavLink onClick={this.hideNav} to="/projects/washington-211">Washington 211</NavLink></li> */}
-                  {/* <li><NavLink onClick={this.hideNav} to="/projects/solarity">Solarity Credit Union</NavLink></li> */}
-                  {/* <li><NavLink onClick={this.hideNav} to="/projects/near">Near.</NavLink></li>  */}
-                  {/* <li><NavLink onClick={this.hideNav} to="/projects/rally4">Rally4</NavLink></li> */}
-                  {/* <li><NavLink onClick={this.hideNav} to="/projects/tradeoff">Tradeoff</NavLink></li> */}
+                  {ProjectDetails.map((project, index) => {
+                    const { client, slug } = project
+                    return (
+                      <li>
+                        <NavLink onClick={this.hideNav} to={"/projects/" + slug}>
+                          {client}
+                        </NavLink>
+                      </li>
+                    )
+                  })}
                 </ul>
               </div>
             </div>

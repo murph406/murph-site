@@ -19,7 +19,7 @@ import ProjectContainer from './components/projects/ProjectContainer';
 import Login from './components/Login';
 import Footer from './components/Footer';
 import ScrollToTop from './ScrollToTop';
-import { BarBuddy, Nike, Boise, AstonMartin, ProjectDetails } from './components/data/data';
+import { ProjectDetails } from './components/data/data';
 
 class App extends Component {
   store = createStore(MainReducer, applyMiddleware(thunk));
@@ -68,32 +68,10 @@ class App extends Component {
                   console.log("HMMMM O SEE IOT ", project)
                   return (
                     <Route exact path={"/projects/" + project.slug} render={() => (
-                      <ProjectContainer data={project.data} />
+                      <ProjectContainer data={project} />
                     )} />
                   )
                 })}
-
-
-                {/* <Route exact path="/projects/aston-martin" render={() => (
-                  <ProjectContainer data={AstonMartin} />
-                )} />
-
-                <Route exact path="/projects/barbuddy" render={() => (
-                  <ProjectContainer data={BarBuddy} />
-                )} />
-
-                <Route exact path="/projects/city-of-boise" render={() => (
-                  <ProjectContainer data={Boise} location={location} />
-                )} />
-
-                <Route exact path="/projects/nike" render={() => (
-                  <ProjectContainer data={Nike} />
-                )} /> */}
-
-
-
-
-
                 <Route exact path="/login" render={() => {
                   if (!isAuthenticated) {
                     return <Login />;
