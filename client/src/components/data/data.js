@@ -4,9 +4,9 @@
 const BarBuddy = {
     client: "BarBuddy",
     year: "2020 (WIP)",
-    thumbnail: "https://lh3.googleusercontent.com/pw/ACtC-3ck2pZn6_KHKwMQtO2f85neuEO61Ha8g3QOmjGNKhk7wfAdfLUwRD-zQbXbOT-LDXBE__SJI-dCpOpQ_ynuZ2gDYOdOOmjRdbHTrim3NPY-ugrbJB0uXg0LxYQisdoQw8s_F6V0f9sOkQbhsnszHrcL=w2904-h2080-no?authuser=0",
-    hero_text: "The night now alive",
-    hero_description: "Nike Basketball’s 3on3 tournament is one of the largest 3on3 street basketball tournaments in the world, with over 1,500 teams, 5,000 players, and 25,000 spectators. This presents a massive logistical challenge for both players and spectators, trying to find their court, find their friends, or one of the many activities and events happening around the area. ",
+    // thumbnail: "https://lh3.googleusercontent.com/pw/ACtC-3ck2pZn6_KHKwMQtO2f85neuEO61Ha8g3QOmjGNKhk7wfAdfLUwRD-zQbXbOT-LDXBE__SJI-dCpOpQ_ynuZ2gDYOdOOmjRdbHTrim3NPY-ugrbJB0uXg0LxYQisdoQw8s_F6V0f9sOkQbhsnszHrcL=w2904-h2080-no?authuser=0",
+    hero_text: "Your friends know best!",
+    hero_description: "Discover new bars, find events and happy hours, and share it all with your friends. Whether far from home or in your neighborhood, BarBuddy encourages adventure. A start-up that centers around an IOS application that enables users to connect with friends, posting to their BarWall, and search for bars and nightlife through a comprehensive map page. ",
     id: "f1",
     content_blocks: [
         {
@@ -24,10 +24,6 @@ const BarBuddy = {
     ],
     deliverables: [
         {
-            deliverable: "UX Research",
-            id: "f1"
-        },
-        {
             deliverable: "UX Design",
             id: "f2"
         },
@@ -39,40 +35,54 @@ const BarBuddy = {
             deliverable: "Visual Design",
             id: "f4"
         },
+        {
+            deliverable: "Font End Development ",
+            id: "f5"
+        },
+        {
+            deliverable: "Back End Development ",
+            id: "f6"
+        },
+        
+
     ],
     team: [
         {
             member: "Nuclear Option",
             id: "f1"
         },
+        {
+            member: "BarBuddy LLC",
+            id: "f1"
+        },
     ]
 };
 
 const Hoopfest = {
-    year: "2020 (WIP)",
-    thumbnail: "https://eric-norman-portfolio.s3.amazonaws.com/home/nike-dunk.png",
+    year: "2020",
     hero_text: "Better tracking and coordination",
-    hero_description: "Nike Basketball’s 3on3 tournament is one of the largest 3on3 street basketball tournaments in the world, with over 1,500 teams, 5,000 players, and 25,000 spectators. This presents a massive logistical challenge for both players and spectators, trying to find their court, find their friends, or one of the many activities and events happening around the area. ",
+    hero_description: "Hoofest’s 3on3 tournament is the largest 3on3 basketball tournament in the world, with over 6,000 teams, 225,000 fans, and 425 city blocks. This presents a massive logistical challenge for both players and fans, trying to find their court, find their friends, or one of the many activities and events happening around the area. ",
     id: "f1",
     content_blocks: [
         {
-            block_type: "full",
             block_title: "UX Research & Design",
-            block_description: "Already a widely used app by players and spectators, the goal of this project has been to find current pain points with the design through participant surveys and feedback, and implement features that improve the overall event experience, like improved wayfinding and interactive bracketing and “what if” tournament outcome speculation calculators. ",
-            block_img: "https://eric-norman-portfolio.s3.amazonaws.com/nike/nike1.png",
+            block_type: "full",
+            block_img: "https://lh3.googleusercontent.com/pw/ACtC-3cXw7ZNPa1RkY-ii0Z-_zav6FMyah02yVxqRv0UD91Zfc3A1ciWLHRy0c4jnP6ZZiKY-ajmAGwZ0cwYEIkOhR8L6ijXi7ptrgWpTiQDn0aRA0OsGgBGM1hZy6d4cx70kzbywidWXuMdtUJQipChRh6K=w1440-h809-no?authuser=0",
             id: "xx2"
         },
         {
             block_type: "image",
-            block_img: "https://eric-norman-portfolio.s3.amazonaws.com/nike/nike2.png",
+            block_img: "https://lh3.googleusercontent.com/pw/ACtC-3dk6gk0pZOYLJH1I8FSd3piMXaSmjkm6ZJIFejxiMmijfBHAu_k5zGQ76eTp7kexU1pmVuCrw1N6HqgkKUXzbtHcLihtiBCtK6z9SgCVxyZqYbQneTR3WXyvXlWtWJNMxVXBt2LgfU0B9SVEeACxwOB=w520-h598-no?authuser=0",
+            id: "xx3"
+        },
+        {
+            block_type: "image",
+            block_description: "Already a widely used app by players and spectators, the goal of this project has been to find current pain points with the design through participant surveys and feedback, and implement features that improve the overall event experience, like improved wayfinding and interactive bracketing and “what if” tournament outcome speculation calculators. ",
+            block_img: "https://lh3.googleusercontent.com/pw/ACtC-3dsvSdQKbTQecI-44daXedBHkVOJ4B1DPAHncz4a4mITshNYtOVgbMZ8GrZDsqlW9ZOZM9Mf8y9yOsp1F4X5WXE4qqvy1ClxM0YCIfVuK59Msb5-EWvr1HelcBKBXPdP1edBNXb499yf2I7wODcl3KK=w1440-h983-no?authuser=0",
             id: "xx4"
         },
     ],
     deliverables: [
-        {
-            deliverable: "UX Research",
-            id: "f1"
-        },
         {
             deliverable: "UX Design",
             id: "f2"
@@ -85,25 +95,24 @@ const Hoopfest = {
             deliverable: "Visual Design",
             id: "f4"
         },
+        {
+            deliverable: "Font End Development ",
+            id: "f5"
+        },
 
     ],
     team: [
         {
-            member: "Eventuris",
+            member: "Spokane Hoopfest",
             id: "f1"
         },
-        {
-            member: "MTBI",
-            id: "f2"
-        }
     ]
 };
 
 const CashInCarry = {
-    year: "2017",
-    thumbnail: "https://etp-7154049292.s3.amazonaws.com/city-of-boise/city-of-boise-thumbnail.png",
-    hero_text: "Making Boise the Most Livable City in the Country",
-    hero_description: "One of the key components of a new citywide initiative by the City of Boise, to improve and better understand the interactions with its citizens, known as the Citizen Experience Project, was a technical and user experience audit of the city’s digital communications environment.",
+    year: "2018",
+    hero_text: "Making Products Simple to Find",
+    hero_description: "URM is the largest food distributor in the inland Northwest. To meet the ever changing demands of clients the company wanted a mobile app to help workers find products in their warehouses fast.  ",
     id: "f1",
     content_blocks: [
         {
@@ -125,70 +134,41 @@ const CashInCarry = {
             block_img: "https://eric-norman-portfolio.s3.amazonaws.com/city-of-boise/hm2.jpg",
             id: "b4"
         },
-        {
-            block_type: "text",
-            block_title: "User Personas",
-            block_description: "Field research and analytics analysis helped us identify and develop personas for the distinct classes and groups of users that the city serves, focusing on user motivations, immediate goals and pain points, and were referenced throughout the user experience design process to ensure that every design decision delights the various design persona the city serves. ",
-            id: "b5"
-        },
-        {
-            block_type: "image",
-            block_img: "https://eric-norman-portfolio.s3.amazonaws.com/city-of-boise/personas.png",
-            id: "b6"
-        },
-        {
-            block_type: "full",
-            block_title: "Information Architecture",
-            block_description: "Utilizing user personas, their needs and goals, as well as the careful consideration of the city of Boise’s internal departmental structure, lead to a new navigational and information architecture structure that was more inline with user’s pre-existing mental model for informational organization and retrieval. ",
-            block_img: "https://eric-norman-portfolio.s3.amazonaws.com/city-of-boise/ia2.png",
-            id: "b7"
-        },
-        {
-            block_type: "full",
-            block_title: "Interface Design",
-            block_description: "After the extensive UX design process, my team handed off all the research, low and high fidelity design deliverables, as well as prototypes to the City's IT team, which would be doing the implementation.  ",
-            block_img: "https://eric-norman-portfolio.s3.amazonaws.com/city-of-boise/city-of-boise-homepage.jpg",
-            id: "b1"
-        },
     ],
     deliverables: [
         {
-            deliverable: "UX Research",
-            id: "f1"
-        },
-        {
             deliverable: "UX Design",
-            id: "f2"
-        },
-        {
-            deliverable: "UX Strategy",
-            id: "f3"
-        },
-        {
-            deliverable: "Analytics",
-            id: "f4"
+            id: "f1"
         },
         {
             deliverable: "UI Design",
-            id: "f5"
-        }
+            id: "f2"
+        },
+        {
+            deliverable: "Font End Development ",
+            id: "f3"
+        },
+        {
+            deliverable: "Back End Development ",
+            id: "f4"
+        },
     ],
     team: [
         {
-            member: "Ventive",
+            member: "URM",
             id: "f1"
         },
         {
-            member: "Drake Cooper",
+            member: "Nuclear Option",
             id: "f2"
         }
     ]
 };
 
-const AstonMartin = {
-    year: "2017",
+const Sprout = {
+    year: "2019-2020",
     thumbnail: "https://eric-norman-portfolio.s3.amazonaws.com/home/aston-martin.png",
-    hero_text: "Architecting a global digital vision",
+    hero_text: "Building Better Heath",
     hero_description: "Aston Martin has been a leader in the luxury car market for over 100 years, selling to 55 markets around the world. When it comes to the craft, detail and engineering of its vehicles, the company is world class. However their digital presence was severely lacking, with their marketing efforts engaging drivers, and delivering quality brand assets and information to dealers.",
     id: "f1",
     content_blocks: [
@@ -234,34 +214,22 @@ const AstonMartin = {
     ],
     deliverables: [
         {
-            deliverable: "UX Design",
-            id: "f1"
-        },
-        {
-            deliverable: "UI Design",
-            id: "f2"
-        },
-        {
-            deliverable: "Visual Design",
-            id: "f3"
-        },
-        {
-            deliverable: "Front-end Development",
+            deliverable: "Front End Development",
             id: "f5"
         },
         {
-            deliverable: "Back-end Development",
+            deliverable: "Back End Development",
             id: "f6"
         }
 
     ],
     team: [
         {
-            member: "Ventive",
+            member: "Washington State Department of Health",
             id: "f1"
         },
         {
-            member: "Possible",
+            member: "Hovi",
             id: "f2"
         }
     ]
@@ -272,7 +240,7 @@ const ProjectDetails = [
     {
         client: "HoopFest",
         slug: "hoopfest",
-        thumbnail: "https://lh3.googleusercontent.com/pw/ACtC-3cwvWPQxLULOPGzaKG_59D1FIuOFO5K_Xx6wxQFlspDffhp4mO9qPv9S_Sf20BcKaQFQEhZdHJzaf1km7T13s4vU-oLci7SO5rJbBOK9LhMayp8pn3-BjfMa6wOZYtOPzQ9L_FNPUhMznECQwzOZYrd=w548-h317-no?authuser=0",
+        thumbnail: "https://lh3.googleusercontent.com/pw/ACtC-3ehSOoJppdLG_3shBHaRonWd73DjYU7kayg_g8KlyYuvW0P0t-SLaZSbjmzx6nB9vcveTY7R0nDbFT2TxgjUovSjHfkvVFhkswMwV_UxbDF6evQXAW-JDo7iq2SzH9fGcC5Blv0-gfF3bLddlnCQpwc=w548-h317-no?authuser=0",
         // thumbnail: "https://lh3.googleusercontent.com/pw/ACtC-3eCBAZMNu8bmQ1NARpbn_9pRjoKratUPSCvelNN8kHnrkJP61MIt8CEkOAiZWEa9o5cpaMCRwtPSA9kj9fDriAsArHYqwuf2gi4kpLJaOOvA2TaoA2HIna7z1Nd8G7Xh3qSsakZDNW0SyghFMBMbWL_=w548-h316-no?authuser=0",
         data: Hoopfest
     },
@@ -286,7 +254,7 @@ const ProjectDetails = [
         client: "Department of Health",
         slug: "department-of-health",
         thumbnail: "https://eric-norman-portfolio.s3.amazonaws.com/department-of-health/doh-thumbnail.png",
-        data: AstonMartin
+        data: Sprout
     },
     {
         client: "BarBuddy",
@@ -296,4 +264,4 @@ const ProjectDetails = [
     },
 ];
 
-export { BarBuddy, Hoopfest, ProjectDetails, CashInCarry, AstonMartin } 
+export { BarBuddy, Hoopfest, ProjectDetails, CashInCarry, Sprout } 

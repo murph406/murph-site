@@ -33,7 +33,7 @@ class App extends Component {
 
   componentDidUpdate() {
     window.scrollTo(0, 0);
-    console.log('updated in app js')
+    console.log('updated in app j')
   }
 
   render() {
