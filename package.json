@@ -47,7 +47,7 @@
     "yarn.lock": "^0.0.1-security"
   },
   "devDependencies": {
-    "concurrently": "^3.6.0",
+    "concurrently": "^4.0.1",
     "gulp": "^3.9.1"
   },
   "repository": {
