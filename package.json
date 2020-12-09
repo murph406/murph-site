@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Example on using create-react-app with a Node Express Backend",
   "license": "MIT",
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
     "client": "cd client && yarn start",
     "server": "nodemon server.js",
