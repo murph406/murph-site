@@ -2,11 +2,6 @@
   "name": "example-create-react-app-express",
   "version": "1.0.0",
   "description": "Example on using create-react-app with a Node Express Backend",
-  "author": {
-    "name": "Esau Silva",
-    "email": "esausilva85@gmail.com",
-    "url": "https://esausilva.com"
-  },
   "license": "MIT",
   "scripts": {
     "client": "cd client && yarn start",
@@ -48,12 +43,12 @@
     "redux": "^4.0.0",
     "redux-thunk": "^2.3.0",
     "run-sequence": "^2.2.1",
+    "serverless-http": "^2.6.0",
     "yarn.lock": "^0.0.1-security"
   },
   "devDependencies": {
     "concurrently": "^3.6.0",
-    "gulp": "^3.9.1",
-    "netlify-lambda": "^1.6.3"
+    "gulp": "^3.9.1"
   },
   "repository": {
     "type": "git",
